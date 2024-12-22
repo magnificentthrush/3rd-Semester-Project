@@ -1,19 +1,21 @@
-3rd Semester Project: Huffman Compression and Decompression
+3rd Semester Project
+
+Huffman Compression and Decompression
+
 This project implements Huffman Encoding and Huffman Decoding algorithms for file compression and decompression. Huffman encoding is an efficient algorithm used to reduce file size by using variable-length codes for characters, where frequently occurring characters use shorter codes.
 
 Features:
 Compression: Compresses files into smaller sizes using Huffman encoding.
 Decompression: Restores the compressed files to their original form using Huffman decoding.
-How to Run the Code:
+
+**How to Run the Code:**
 Prerequisites:
 Visual Studio 2022 (or later)
 C++ compiler
 Steps:
 Clone the Repository: Clone this repository to your local machine using the following command:
 git clone <repository_url>
-
 Open the Project in Visual Studio:
-
 Open Project.sln in Visual Studio 2022 (or later versions).
 Build and Run the Solution:
 
@@ -22,10 +24,10 @@ After building, click on Debug > Start Without Debugging (or press Ctrl + F5) to
 Input Files and Output:
 
 For Compression: You will be prompted to provide the full path to the text file you want to compress. For example:
+"Enter the path of the compressed file:"
 
-graphql
-Copy code
 C:\Users\yawar\OneDrive\Desktop\Project\input.rtf
+
 The program will create the compressed file in the project directory (where main.cpp is located).
 
 For Decompression: Similarly, provide the full path to the compressed file and give the desired name for the output file (with extension). E.g., output.txt.
